@@ -25,6 +25,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "update": "git add . && git commit -m \"saving progress\" && git push",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

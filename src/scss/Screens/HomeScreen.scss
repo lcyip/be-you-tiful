@@ -1,0 +1,117 @@
+.home-screen-container {
+    background-color: white;
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.home-screen-scroll {
+    background-color: white;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.home-screen-container::-webkit-scrollbar { 
+    display: none;
+}
+
+.welcome-caption {
+    color:black;
+    font-size: 20px;
+    margin-left: 5%;
+    font-weight: 700;
+    // margin-bottom: 7%;
+}
+
+.user-input-home {
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    min-height: 4%;
+    width: 85%;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    color: #848993;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-indent: 5%;
+}
+
+.product-section-title {
+    font-size: 16px;
+    margin-left: 5%;
+}
+
+.product-container {
+    height: 30%;
+    min-height: 30%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    align-items: center;
+}
+
+.product-container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.product-details-container {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    max-height: 100%;
+    min-width: 142px;
+    background-color: white;
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    border-radius: 10px;
+    margin-left: 5%;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-description-container {
+    height: 25%;
+    min-height: 25%;
+    background-color: white;
+    font-size: 11px;
+    font-style: italic;
+    text-indent: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-detail-image {
+    max-height: 75%;
+    width: 100%;
+}
+
+.brand-container {
+    font-weight: 600;
+}
+
+.price-container {
+    text-align: right;
+    margin-right: 5%;
+}
+
+.confetti-icon-container {
+    width: 15%;
+    max-width: 15%;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+
+
+
+
+

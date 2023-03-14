@@ -1,0 +1,20 @@
+#root, html, body {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 45px;
+  font-family: Lato;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #242528;
+  overflow: hidden;
+}

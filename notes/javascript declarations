@@ -1,0 +1,48 @@
+// defining a const variable named X and setting the value to be '123!@#'
+const X = '123!@#';
+
+// defining a const variable named X which is an object and has two fields.
+// the two fields (key-value pair) are:
+// - the first key is fieldName and value is '12345'
+// - the second key is keyName and value is '67890'
+const X = {
+    fieldName: '12345',
+    keyName: '67890'
+};
+
+//defining a const function X which returns a value of 1234
+const X = () => {
+    // X does something here in between these curly brackets
+
+    return 1234;
+};
+
+//defining a const function X which straight up returns an object one field (key is Abc123 and value is 'def123')
+const X = () => ({
+    Abc123: 'def123',
+});
+
+//defining a const function X which returns an object but you can do stuff before the return statement
+const X = () => {
+    return {
+        abc123: 'def123',
+    }
+}
+
+//defining a const function X which returns an HTML structure
+// aka component
+const X = () => {
+    return (
+        <div>
+             return some HTML structure
+        </div>
+    )
+}
+
+// defining a const function X which straight up returns an HTML structure
+// aka still a component
+const X = () => (
+    <div>
+         return some HTML structure
+    </div>
+)

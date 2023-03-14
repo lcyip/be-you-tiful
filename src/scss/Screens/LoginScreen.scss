@@ -1,0 +1,91 @@
+.login-screen-container {
+    height: 100%;
+    width: 100%; 
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+};
+
+.log-in-header {
+    color:black;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-weight: 900;
+    margin-bottom: 7%;
+}
+
+.continue-with-button-container {
+    height: 5%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.continue-with-button-logo {
+    max-height: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sign-up-question {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 40%;
+}
+
+.sign-up-text {
+    color: blue;
+    text-decoration: underline;
+}
+
+.or-divider {
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.user-input {
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    height: 5%;
+    width: 60%;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    color: #848993;
+    margin-bottom: 5%;
+}
+
+.log-in-button {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 7px;
+    height: 5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+button {
+    padding: 0px;
+    border: none;
+    user-select: none;
+    background-color: transparent;
+} 
+
+button:hover {
+    cursor: pointer;
+}

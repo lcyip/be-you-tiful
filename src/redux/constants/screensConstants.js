@@ -4,6 +4,7 @@ export const SIGNUP_SCREEN = Symbol('SIGNUP_SCREEN');
 export const HOME_SCREEN = Symbol('HOME_SCREEN');
 export const CART_SCREEN = Symbol('CART_SCREEN');
 export const RETAILER_DETAILS_SCREEN = Symbol('RETAILER_DETAILS_SCREEN');
+export const PRODUCT_DETAILS_SCREEN = Symbol('PRODUCT_DETAILS_SCREEN');
 
 export const UPDATE_SCREEN = Symbol('UPDATE_SCREEN');
 

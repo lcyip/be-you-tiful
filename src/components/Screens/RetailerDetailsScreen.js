@@ -8,6 +8,7 @@ import ultaLogo from '../../imageSources/ultalogo.png';
 import sephoraLogo from '../../imageSources/sephoralogo.png';
 import rareBeautyLogo from '../../imageSources/rarebeautylogo.png';
 import { productDetailSelector } from '../../redux/selectors/screensSelectors';
+import { PRODUCT_DETAILS_SCREEN } from '../../redux/constants/screensConstants';
 
 const RetailerDetailsScreen = ({
     productDetail,
@@ -49,6 +50,11 @@ const RetailerDetailsScreen = ({
                         <div className='retailer-store-distance'>
                             nearest store: 0.8 mi
                         </div>
+                        <div className='retailer-price-container'
+                        style={{color: 'red'}}
+                        >
+                            $19
+                        </div>
                 </div>
                 <div className='retailer-store-details'>
                         <img className='ulta-blush-container'
@@ -65,6 +71,9 @@ const RetailerDetailsScreen = ({
                         </div>
                         <div className='retailer-store-distance'>
                             nearest store: 0.5 mi
+                        </div>
+                        <div className='retailer-price-container'>
+                            $23
                         </div>
                 </div>
                 <div className='retailer-store-details'>
@@ -83,9 +92,12 @@ const RetailerDetailsScreen = ({
                         <div className='retailer-store-distance'>
                             nearest store: none
                         </div>
+                        <div className='retailer-price-container'>
+                            $21
+                        </div>
                 </div>
-                <Tabs/>
             </div>
+            <Tabs/>
         </div>
     )
 }

@@ -4,6 +4,7 @@ import {
     SIGNUP_SCREEN,
     HOME_SCREEN,
     RETAILER_DETAILS_SCREEN,
+    PRODUCT_DETAILS_SCREEN,
     UPDATE_SCREEN,
     UPDATE_EMAIL,
     UPDATE_PASSWORD,
@@ -18,7 +19,7 @@ import {
 } from '../constants/screensConstants'
 
 const initialState = {
-    currentScreen: HOME_SCREEN,
+    currentScreen: RETAILER_DETAILS_SCREEN,
     // activePod: "none",
     [LOGIN_SCREEN]: {
         email: '',

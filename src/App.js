@@ -8,6 +8,7 @@ import {
   SIGNUP_SCREEN,
   HOME_SCREEN,
   RETAILER_DETAILS_SCREEN,
+  PRODUCT_DETAILS_SCREEN,
   CART_SCREEN,
 } from './redux/constants/screensConstants';
 
@@ -16,6 +17,7 @@ import LoginScreen from './components/Screens/LoginScreen';
 import SignUpScreen from './components/Screens/SignUpScreen';
 import HomeScreen from './components/Screens/HomeScreen';
 import RetailerDetailsScreen from './components/Screens/RetailerDetailsScreen';
+import ProductDetailsScreen from './components/Screens/ProductDetailsScreen';
 
 const App = ({
   currentScreen,
@@ -27,6 +29,7 @@ const App = ({
     [SIGNUP_SCREEN]: <SignUpScreen/>,
     [HOME_SCREEN]: <HomeScreen/>,
     [RETAILER_DETAILS_SCREEN]: <RetailerDetailsScreen/>,
+    [PRODUCT_DETAILS_SCREEN]: <ProductDetailsScreen/>,
   };
 
   // 1) our initial state for currentScreen is WELCOME_SCREEN
